@@ -1,6 +1,7 @@
 @import "reset.css"; 
 /* 기본 font-size : 13px */
 /* article_Menu */
+
 .article_Menu{
     position: fixed; top:50%; left: 95%;
     transform: translateY(-50%);
@@ -23,7 +24,7 @@ section{
 	width: 500px; height: 500px; position: relative;
 	background-size: cover; 
 	background-attachment: fixed; /*배경이미지 고정*/
-    	overflow: hidden;
+    _overflow: hidden;
 }
 
 section:nth-child(1){background-image: url(../img/RnD/img0.jpg); background-position: top right;}
