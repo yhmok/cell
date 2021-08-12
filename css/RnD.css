@@ -114,12 +114,6 @@ section:nth-child(6) article .p_box {line-height: 50px; padding: 5px 0;}
 
 /* 모바일 */
 @media screen and (max-width:767px){  
-    section:nth-child(1) {background-size: cover;}
-    section:nth-child(2) {background-size: cover;}
-    section:nth-child(3) {background-size: cover;}
-    section:nth-child(4) {background-size: cover;}
-    section:nth-child(5) {background-size: cover;}
-    section:nth-child(6) {background-size: cover;}
     .article_Menu{left: 90%;}
 
     /* article */
