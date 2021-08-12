@@ -20,10 +20,10 @@
 
 /* section */
 section{
-	width: 100px; height: 100px; position: relative;
+	width: 500px; height: 500px; position: relative;
 	background-size: cover; 
 	background-attachment: fixed; /*배경이미지 고정*/
-    _overflow: hidden;
+    	overflow: hidden;
 }
 
 section:nth-child(1){background-image: url(../img/RnD/img0.jpg); background-position: top right;}
