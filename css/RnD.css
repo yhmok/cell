@@ -114,7 +114,7 @@ section:nth-child(6) article .p_box {line-height: 50px; padding: 5px 0;}
 }
 
 /* 모바일 */
-@media screen and (max-width:767px){  
+@media screen and (min-width: 100px) and (max-width:767px){  
     section:nth-child(1){background: url(../img/RnD/img0.jpg) center/cover no-repeat;}
     section:nth-child(2){background: url(../img/RnD/img1.jpg) center/cover no-repeat;}
     section:nth-child(3){background: url(../img/RnD/img2.jpg) center/cover no-repeat;}
